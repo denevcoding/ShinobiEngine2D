@@ -1,0 +1,6 @@
+#Directories
+.vs/
+intermediate/
+
+#Files
+*.user

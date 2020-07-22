@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{2e387d23-f2e1-4247-9785-50c78039d47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{5013e619-20ec-4a54-aec3-40c583e973df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx">
+      <UniqueIdentifier>{27606482-30db-49cc-b435-8fcb30d87433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx\Components">
+      <UniqueIdentifier>{61b38948-3f60-4964-bc91-bee9f5607b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx\Components\AudioComponents">
+      <UniqueIdentifier>{5e2e239b-118e-4599-890e-8720325a6ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx\Components\GraphicComponents">
+      <UniqueIdentifier>{51a81de8-9810-4d23-b37d-2d618d4bdf10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx\Components\InputComponents">
+      <UniqueIdentifier>{58ae90b2-1f63-47dd-9834-4a7370af32c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx\Components\PlayerComponents">
+      <UniqueIdentifier>{670ba1dc-9431-4700-9bc4-2a94fb69245b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx\Components\PhysicComponent">
+      <UniqueIdentifier>{d5112a77-2393-476f-8066-00ee76f075a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Managerx">
+      <UniqueIdentifier>{8455bfeb-8e71-42c1-9d69-6d340a74bb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GlobalObjects">
+      <UniqueIdentifier>{f6d7be65-4811-46f5-9568-52a83288f7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GlobalObjects\Audiox">
+      <UniqueIdentifier>{a27e34b3-3dba-471b-b98d-3b0ac2c0ce68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GlobalObjects\Graphix">
+      <UniqueIdentifier>{8e7c9c98-f992-4503-be66-8433912baa03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GlobalObjects\Inputx">
+      <UniqueIdentifier>{88dc095d-ca15-48a8-8351-6723d59b6495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Global\MathTools">
+      <UniqueIdentifier>{a814a4ef-b251-48e2-8499-f816025259b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GlobalObjects\Animationx">
+      <UniqueIdentifier>{f9773465-044c-4be9-b688-0e13fa96b9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GlobalObjects\Physix">
+      <UniqueIdentifier>{ea8cde67-f323-46fa-ad3c-666af55d26b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx\Messages">
+      <UniqueIdentifier>{52d5caa8-ff4d-4024-8d42-ddae53f62ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GameObjectx\Components\AnimationComponent">
+      <UniqueIdentifier>{2d36089c-e8c7-4b27-aca1-a62668da63ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global\TimeManager.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\stdafx.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShinobiEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Managerx\GraphicsEngine.cpp">
+      <Filter>Source Files\Engine\Managerx</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GlobalObjects\Graphix\sprite.cpp">
+      <Filter>Source Files\Engine\GlobalObjects\Graphix</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\MathTools\vec2.cpp">
+      <Filter>Source Files\Global\MathTools</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GlobalObjects\Animationx\Animation2D.cpp">
+      <Filter>Source Files\Engine\GlobalObjects\Animationx</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Components\Transform2D.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GlobalObjects\Graphix\Background.cpp">
+      <Filter>Source Files\Engine\GlobalObjects\Graphix</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Managerx\World.cpp">
+      <Filter>Source Files\Engine\Managerx</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\GameObject.cpp">
+      <Filter>Source Files\Engine\GameObjectx</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Messages\Message.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Components\GraphicComponents\RenderComponent.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Components\GraphicComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Managerx\PhysixEngine.cpp">
+      <Filter>Source Files\Engine\Managerx</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Components\PhysicComponents\Collider.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Components\PhysicComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GlobalObjects\Physix\Manifold.cpp">
+      <Filter>Source Files\Engine\GlobalObjects\Physix</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Components\PhysicComponents\PhysixBody.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Components\PhysicComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Components\PhysicComponents\CircleCollider.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Components\PhysicComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Components\PhysicComponents\RectCollider.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Components\PhysicComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Managerx\AudioManager.cpp">
+      <Filter>Source Files\Engine\Managerx</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GlobalObjects\Audiox\AudioClip.cpp">
+      <Filter>Source Files\Engine\GlobalObjects\Audiox</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Components\AudioComponents\AudioSource.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Components\AudioComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectx\Components\AudioComponents\AudioListener.cpp">
+      <Filter>Source Files\Engine\GameObjectx\Components\AudioComponents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global\TimeManager.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GlobalObjects\Graphix\RenderObject.h">
+      <Filter>Source Files\Engine\GlobalObjects\Graphix</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Managerx\GraphicsEngine.h">
+      <Filter>Source Files\Engine\Managerx</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\EngineSettings.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GlobalObjects\Graphix\sprite.h">
+      <Filter>Source Files\Engine\GlobalObjects\Graphix</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\MathTools\vec2.h">
+      <Filter>Source Files\Global\MathTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GlobalObjects\Animationx\Animation2D.h">
+      <Filter>Source Files\Engine\GlobalObjects\Animationx</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\Component.h">
+      <Filter>Source Files\Engine\GameObjectx\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\Transform2D.h">
+      <Filter>Source Files\Engine\GameObjectx\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GlobalObjects\Graphix\Background.h">
+      <Filter>Source Files\Engine\GlobalObjects\Graphix</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Managerx\World.h">
+      <Filter>Source Files\Engine\Managerx</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\GameObject.h">
+      <Filter>Source Files\Engine\GameObjectx</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Messages\Message.h">
+      <Filter>Source Files\Engine\GameObjectx\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\GraphicComponents\RenderComponent.h">
+      <Filter>Source Files\Engine\GameObjectx\Components\GraphicComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Managerx\PhysixEngine.h">
+      <Filter>Source Files\Engine\Managerx</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\PhysicComponents\Collider.h">
+      <Filter>Source Files\Engine\GameObjectx\Components\PhysicComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GlobalObjects\Physix\PhysixStructs.h">
+      <Filter>Source Files\Engine\GlobalObjects\Physix</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GlobalObjects\Physix\Manifold.h">
+      <Filter>Source Files\Engine\GlobalObjects\Physix</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\PhysicComponents\PhysixBody.h">
+      <Filter>Source Files\Engine\GameObjectx\Components\PhysicComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\MathTools\utils.h">
+      <Filter>Source Files\Global\MathTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\PhysicComponents\CircleCollider.h">
+      <Filter>Source Files\Engine\GameObjectx\Components\PhysicComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\PhysicComponents\RectCollider.h">
+      <Filter>Source Files\Engine\GameObjectx\Components\PhysicComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Messages\CollisionMessage.h">
+      <Filter>Source Files\Engine\GameObjectx\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GlobalObjects\Audiox\AudioClip.h">
+      <Filter>Source Files\Engine\GlobalObjects\Audiox</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Managerx\AudioManager.h">
+      <Filter>Source Files\Engine\Managerx</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\AudioComponents\AudioSource.h">
+      <Filter>Source Files\Engine\GameObjectx\Components\AudioComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectx\Components\AudioComponents\AudioListener.h">
+      <Filter>Source Files\Engine\GameObjectx\Components\AudioComponents</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
